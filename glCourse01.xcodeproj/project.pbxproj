@@ -12,6 +12,8 @@
 		0DA62A7420BA4F4800257052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA62A7220BA4F4800257052 /* Main.storyboard */; };
 		0DA62A7620BA4F4900257052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA62A7520BA4F4900257052 /* Assets.xcassets */; };
 		0DA62A7920BA4F4900257052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA62A7720BA4F4900257052 /* LaunchScreen.storyboard */; };
+		0DA62A8120BAEABA00257052 /* forrest.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA62A8020BAEAB900257052 /* forrest.png */; };
+		0DA62A8320BAF98700257052 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA62A8220BAF98700257052 /* mountain.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0DA62A7520BA4F4900257052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA62A7820BA4F4900257052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA62A7A20BA4F4900257052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA62A8020BAEAB900257052 /* forrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forrest.png; sourceTree = "<group>"; };
+		0DA62A8220BAF98700257052 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				0DA62A7020BA4F4800257052 /* ViewController.swift */,
 				0DA62A7220BA4F4800257052 /* Main.storyboard */,
 				0DA62A7520BA4F4900257052 /* Assets.xcassets */,
+				0DA62A8020BAEAB900257052 /* forrest.png */,
+				0DA62A8220BAF98700257052 /* mountain.png */,
 				0DA62A7720BA4F4900257052 /* LaunchScreen.storyboard */,
 				0DA62A7A20BA4F4900257052 /* Info.plist */,
 			);
@@ -123,8 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA62A7920BA4F4900257052 /* LaunchScreen.storyboard in Resources */,
+				0DA62A8320BAF98700257052 /* mountain.png in Resources */,
 				0DA62A7620BA4F4900257052 /* Assets.xcassets in Resources */,
 				0DA62A7420BA4F4800257052 /* Main.storyboard in Resources */,
+				0DA62A8120BAEABA00257052 /* forrest.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
