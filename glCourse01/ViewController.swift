@@ -57,7 +57,7 @@ class ViewController: GLKViewController {
             uniform   vec2 scale;
             varying   vec2 textureCoordinateInterpolated;
             void main() {
-                gl_Position = vec4((position.x + translate.x)*scale.x, (position.y + translate.y)*scale.y, 0.0, 1.0);
+                gl_Position = vec4((position.x *scale.x + translate.x), (position.y *scale.y+ translate.y), 0.0, 1.0);
                 textureCoordinateInterpolated = textureCoordinate;
             }
         """
@@ -114,22 +114,17 @@ class ViewController: GLKViewController {
     }
     
     override func glkView(_ view: GLKView, drawIn rect: CGRect) {
-        animationX1 += 0.010
-        animationY1 += 0.025
-        animationX2 -= 0.0015
-        animationY2 -= 0.0015
-        if scaleX1 > 0.25 {
-            scaleX1 -= 0.015
-        }
-        if scaleY1 > 0.25 {
-            scaleY1 -= 0.015
-        }
-        if scaleX2 < 3.0 {
-            scaleX2 += 0.025
-        }
-        if scaleY2 < 3.0 {
-            scaleY2 += 0.025
-        }
+        animationX1 += 0.005
+        animationY1 += 0.005
+        scaleX1 -= 0.005
+        scaleY1 -= 0.005
+
+        
+        animationX2 -= 0.005
+        animationY2 -= 0.005
+        scaleX2 += 0.005
+        scaleY2 += 0.005
+
         glClear(GLbitfield(GL_COLOR_BUFFER_BIT))
         
         glUniform2f(glGetUniformLocation(program, "translate"), animationX1, animationY1)
