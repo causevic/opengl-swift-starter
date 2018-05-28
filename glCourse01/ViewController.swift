@@ -120,8 +120,8 @@ class ViewController: GLKViewController {
         scaleY1 -= 0.005
 
         
-        animationX2 -= 0.005
-        animationY2 -= 0.005
+        animationX2 -= 0.015
+        animationY2 -= 0.015
         scaleX2 += 0.005
         scaleY2 += 0.005
 
